@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="es-CL">
+
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
+<link rel="stylesheet" href="../Css/header.css">
+
+<!-- Scrtipts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+
+<head>
+
+    <!-- Encabezado -->
+    <div>
+        <nav class="navbar navbar-light stroke navbar-expand-lg p-3" id="mainNav">
+            <a class="navbar-brand">
+                <img class="drop" src="../Imagenes/logo-JALE-amarillo.png" style="width: 50px;" alt="logoJALE">
+                <span class="fs-5 fw-bold">J.A.L.E</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse centrar" id="navbarSupportedContent">
+                <ul class="navbar-nav centrar me-auto mt-4 ps-3">
+                    <li class="nav-item zoom me-auto">
+                        <div class="nav-item me-auto">
+                            <a href="/Jale_Final/indexSession.php">Inicio</a>
+                        </div>
+                    </li>
+                    <li class="nav-item zoom me-auto">
+                        <div class="nav-item me-auto">
+                            <a href="/Jale_Final/Formulario/verWeb.php">Sitios Webs</a>
+                        </div>
+                    </li>
+                    <li class="nav-item zoom me-auto">
+                        <div class="nav-item me-auto">
+                            <a href="/Jale_Final/Formulario/verWebsListadas.php">Ver Mis Sitios Web</a>
+                        </div>
+                    </li>
+                    <li class="nav-item zoom me-auto">
+                        <div class="nav-item me-auto">
+                            <a href="/Jale_Final/Formulario/verInfografiaListadas.php">Infografias</a>
+                        </div>
+                    </li>
+                    <li class="nav-item zoom me-auto">
+                        <div class="nav-item me-auto">
+                            <a href="/Jale_Final/Formulario/verNoticiasListadas.php">Noticias</a>
+                        </div>
+                    </li>
+                    <li class="nav-item zoom me-auto">
+                        <div class="nav-item me-auto">
+                            <a href="/Jale_Final/Formulario/sugerencia.php">Agregar Sugerencias</a>
+                        </div>
+                    </li>
+                    <li class="nav-item zoom">
+                        <div class="nav-item">
+                            <a href="/Jale_Final/AmbienteT.php">Ambiente Aprendizaje</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="d-flex justify-content-end align-items-center text-light" id="login" style="padding-top: 25px; padding-bottom: 25px;">
+            <a class="btn btn-outline-primary me-1 ms-5 fs-4" onclick="return confirm('¿Desea cerrar la sesión?');"
+                href="/Jale_Final/Session/killSession.php">Cerrar Sesión</a>
+        </nav>
+    </div>
+</head>
+
+</html>
